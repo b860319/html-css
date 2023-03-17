@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/********************************/
+/********************************/
+/********************************/
+.wrap{
+	width: 1002px;
+	margin: 0 auto;
+	margin-top: 3px;
+}
+.header{
+	display: flex;
+	justify-content: end;
+	background: #f6f6f6;
+}
+span{
+	color: #4466a0;
+}
+span.fb-color:hover{
+	color: #c77c1a;
+}
+.header li a{
+	text-decoration: none;
+	color: #00aaec;
+	font-weight: bold;
+	float: right;
+}
+.header li img{
+	padding-left: 20px;
+	float: left;
+}
+.header li a:hover{
+	color: #c77c1a;
+}
+.menu{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.menu li a{
+	padding-left: 30px;
+	color: #0c9;
+	text-decoration: none;
+	font-weight: bold;
+}
+.menu li a:hover{
+	color: #c77c1a;
+}
+.content-background-image{
+	height: 346px;
+	background-image: url("https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png");
+}
+.content-background-image{
+	display: flex;
+	align-items: center;
+}
+.content-background-image p{
+	color: #f6f6f6;
+	font-size: 30px;
+	padding-left: 20px;
+}
+
+.course{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
+}
+.item{
+	width: 320px;
+	box-shadow: 0 5px 5px #e4e4e4;
+}
+.item h2{
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.item p{
+	letter-spacing: 3px;
+	padding-left: 20px;
+	line-height: 23px;
+	letter-spacing: 3px;
+}
+span.RWD{
+	letter-spacing: 6px;
+}
+.item-ol{
+	padding-left: 50px;
+	line-height: 20px;
+	list-style-type: disc;
+}
+.title-of-difference{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 26px;
+	font-weight: bolder;
+}
+.difference{
+	margin: 0 auto;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+.difference th{
+	font-weight: bolder;
+}
+.difference th , .difference td{
+	border-top:  1px solid black;
+	border-bottom: 1px solid black;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 100px;
+}
+.difference tr th{
+	background-color: #f7f7f7;
+}
+.form{
+	width: 1002px;
+	height: 500px;
+	background:linear-gradient(#006a4f , #00946e) ;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.form h2{
+	text-align: center;
+	padding-top: 50px;
+	line-height: 35px;
+	color: #ffff;
+	font-size: 30px;
+	letter-spacing: 3px;
+}
+.form-content{
+	display: flex;
+	justify-content: space-around;
+}
+.form-content textarea{
+	width: 460px;
+	height: 245px;
+	margin-top: 100px;
+	border-radius: 5px;
+} 
+.text{
+	width: 460px;
+	height: 23px;
+	margin-bottom: 25px;
+	margin-top: 5px;
+	border-radius: 3px;
+	border: 0px;
+}
+.form-content label{
+	color: #ffff;
+}
+.form-content ul{
+	margin-top: 100px;
+}
+.submit{
+	width: 50px;
+	height: 30px;
+	margin-left: 400px;
+}
+.submit:hover{
+	background-color: #a5a5ac;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.footer a:hover{
+	color: #f064a5;
+}
+.contact-information a{
+	text-decoration: none;
+}
+
